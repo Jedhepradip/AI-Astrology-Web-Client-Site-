@@ -104,8 +104,7 @@ const SignIn: React.FC = () => {
                     <button
                         type="button"
                         onClick={() => setShowPassword((prev) => !prev)}
-                        className="absolute right-5 top-4 text-white"
-                    >
+                        className="absolute right-5 top-4 text-white">
                         {showPassword ? <EyeOff size={22} /> : <Eye size={22} />}
                     </button>
                     {errors.password && (
