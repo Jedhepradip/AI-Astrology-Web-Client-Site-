@@ -32,8 +32,7 @@ const SignIn: React.FC = () => {
                 headers: {
                     "Content-Type": "application/json"
                 }
-            });
-            
+            });            
 
             if (response.status === 200) {
                 toast.success(response.data.message || "Login successful! 🎉", { position: "top-right", autoClose: 2000, theme: "colored", });
